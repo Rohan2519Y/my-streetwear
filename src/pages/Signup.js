@@ -1,8 +1,8 @@
 export default function Signup() {
   return (
-    <div style={{ padding: '1rem' }}>
+    <div>
       <h1>Sign Up</h1>
-      <form>
+      <form className="form">
         <input placeholder="Email" /><br />
         <input type="password" placeholder="Password" /><br />
         <button>Sign Up</button>

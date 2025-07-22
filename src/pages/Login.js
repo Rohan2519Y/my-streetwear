@@ -1,8 +1,8 @@
 export default function Login() {
   return (
-    <div style={{ padding: '1rem' }}>
+    <div>
       <h1>Login</h1>
-      <form>
+      <form className="form">
         <input placeholder="Email" /><br />
         <input type="password" placeholder="Password" /><br />
         <button>Login</button>

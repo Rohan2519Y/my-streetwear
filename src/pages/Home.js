@@ -4,7 +4,7 @@ export default function Home() {
   const categories = ['Tees', 'Jackets', 'Caps', 'Accessories', 'Limited'];
 
   return (
-    <div style={{ padding: '1rem' }}>
+    <div>
       <h1>F1 Streetwear</h1>
       <button><Link to="/category/Tees">View All</Link></button>
 
